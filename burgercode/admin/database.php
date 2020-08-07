@@ -3,9 +3,9 @@
 class Database
 {
     private static $dbHost = "localhost";
-    private static $dbName = "latemweq_burger_code";
-    private static $dbUser = "latemweq_visiteur";
-    private static $dbUserPassword = "Rz^M@jxL)w:=3PKG&L";
+    private static $dbName = "burger_code";
+    private static $dbUser = "root";
+    private static $dbUserPassword = "";
     private static $connection = null;    
     public static function connect()
          {
@@ -26,9 +26,3 @@ class Database
 }  
 ?>
 
-<!-- /* Connexion sur serveur Web
-    *
-    * private static $dbHost = "localhost";
-    private static $dbName = "latemweq_burger_code";
-    private static $dbUser = "latemweq_visiteur";
-    private static $dbUserPassword = "Rz^M@jxL)w:=3PKG&L";*/ -->
